@@ -13,7 +13,7 @@ public class BeerServiceImpl implements BeerService {
         return Beer.builder()
                 .id(id)
                 .version(1)
-                .beerStyle(BeerStyle.IPA)
+                .beerStyle(BeerStyle.SAISON)
                 .build();
     }
 }
